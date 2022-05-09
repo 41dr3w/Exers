@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi curso Fullstack (Clase 2)</title>
+</head>
+
+<body>
+
+
+
+<h1>Mi curso fullstack</h1>
+<h2>Clase 2</h2>
+
+
+<h3>Temario</h3>
+        <ul>
+            <li><a href="#El concepto de herencia en HTML">"El concepto de herencia en HTML"</a></li>   <!-- hablo sobre como HTML sigue 
+                la idea de herencias de padre he hijo, desde su estructura hasta en sus elementos o atributos--> 
+            <li><a href="#La herencia en los elementos o etiquetas">La herencia en los elementos o etiquetas</a></li>
+            <li><a href="#Dinamicas de textos">"Dinamicas de Textos"</a></summary>
+                <ul>
+                    <li><a href="#Cuadros">"Cuadros"</a> </li>
+                    <li><a href="#Articulos desplegables">"Articulos Desplegables"</a></l>
+                    <li><a href="#Formularios">"Formularios"</a></li>
+                </ul>
+            </li>       
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p><sub>Nota: Tocar en los triangulo para ver los articulos</sub></p>
+
+<dd>
+
+<h4>El concepto de herencia en HTML</h4>
+
+<details>
+   <summary> <a id="El concepto de herencia en HTML"></a></summary>
+    <article>
+        <p>Un concepto importante a tener en cuenta de lo que se explico anteriormente en el Modulo 1. Es el concepto de herencia,
+    que tiene los resaltadores, es decir, las bien llamadas <i>etiquetas</i> Retomando la idea mencionada, es como si pudiera
+    resaltar sobre lo resaltado, marcar sobre lo marcado, generando categorización o discriminación de las palabras de forma más especificas,
+    adentrandonos en el texto. 
+    Si una etiqueta <code><etiqueta1></code> encierra un parrafo y o un texto y esta es encerrada por otra <code><<etiqueta2><etiqueta1></etiqueta1><etiqueta2></code> La etiqueta1
+    es <i>Hija</i> de la etiqueta2, así como tambien la etiqueta2 es <i>Padre</i> de la etiqueta1, haciendo así que a la vez, la etiqueta1 pueda encerrar, a otras etiquetas dentro de ella (siendo <i>Hijas</i>), 
+    o de forma contraria que haya más <i>Padres</i> por encima de ella, ya sea una etiqueta Padre de forma directa, como que la etiqueta2 tenga etiquetas por encima.  
+    
+    Por otra parte, sumado a esta logica expuesta, si agregamos una etiqueta <i>hija</i> más a la etiqueta2 mencionada, ya teniendo la etiqueta1 dentro de si,
+    dicha tercera nueva etiqueta se convierte en la etiqueta <i>hermana</i> de la etiqueta1.
+
+    Todo lo explicado es, obviamente, partiendo desde la base del texto. Pero cambiando el foco y viendolo más desde un punto de vista 
+    del codigo, esto ayuda a la organización de elementos y recursos dentro de diseño web. Generando no solo el diseño de estructural de la pagina sino,
+    diseño jerarquicos de los elementos. Esto hace que diseñar una pagina web, desde cero en su esqueleto parezca un sin sentido, pero si su base estructural
+    no se ajusta a necesidades futuras, generará posiblemente un doble trabajo.
+    </p></article>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+<h4>La herencia en los elementos o etiquetas</h4>
+<details>
+    <summary><a id="La herencia en los elementos o etiquetas"></a></summary>
+
+    <article><p>Muchas etiquetas por defecto abren un abanico de posibilidades a escribir nuevas etiquetas, las cuales en conjunto,
+permite o permiten diferentes tipos de funciones. Esto, es más facil entenderlo con uno o dos ejemplos simples</p>
+
+<p> Si programando se escribe la etiqueta <i>tr</i> permite la posibilidad de escribir dentro de ella, la etiqueta <i>th</i> o si no <i>td</i> 
+las cuales son etiquetas hijas de <i>tr. Tr </i> permite la creación de una fila de una tabla (<i>Table Row</i> en ingles) y dentro de sí,
+permitira la creación de un dato cabecera y del dato en sí, pertenecientes a las etiquetas mencionadas. <i>th</i>
+sera para permitir escribir contenido de cabecera, es decir, el titulo de la columna, la cual proviene de Table Head. Y <i>td</i>
+sera donde se pondra el contenido del cuadro, al cual proviene de <i>Table Date</i></p>
+
+<p>Como el elenento explicado anteriormente existen muchisimas etiquetas con este tipo de estructura operacional o funcional, 
+en el cual una etiqueta permite la escritura de contenido organizado mediante la indexación de nuevas etiquetas en la misma</p></article>
+</details>
+
+
+
+
+
+
+
+
+
+
+<h4>Dinamicas de textos</h4>
+<details>
+    <summary><a id="Dinamicas de textos"></a></summary>
+
+    
+        <p> Con el concepto anterior, existen 3 tipos de etiquetas que permite la escritura de contenido asociado a formatos.
+        Estos ayudan a dar no solo forma real si no conceptual al contenido escrito en la web. Son las primeras etiquetas basicas
+        como primordiales pertenecientes en el ambito de HTML. Estos son los Formularios, Cuadros y Articulos Desplegables
+        </p>
+
+
+        <dd><details>
+            <summary><a id="Cuadros">"Cuadros"</a></summary>
+            <article>        
+        
+                <p>Las etiquetas que generan cuadros, son las llamadas <i>tr</i> (a que no te lo esperabas) como ya fue mencionada en uno de los titulos anteriores,
+                te dejo un ejemplo a continuación de su escritura en html como su resultado</p>
+
+                <dd>      
+                <h6><u>Codigo</u></h6>
+                &lt;table&gt; <br>
+                &lt;tr&gt; <br>
+                &lt;th&gt;Soy el titulo&lt;/th&gt; <br> 
+                &lt;td&gt;Soy el dato o el contenido &lt;/td&gt; <br>      
+                &lt;/tr&gt; <br>  
+                &lt;/table&gt; <br> 
+                
+
+
+                <h6><u>Resultado</u></h6>
+                <table style="border:3px solid black;">       
+                    <tr>                                    <!-- Etiqueta "Padre" de Th y td -->
+                        <th>Soy el titulo</th> <br>         <!-- Etiqueta "hijo" de tr y etiqueta "hermana" de td -->
+                    </tr>
+                    <tr>   
+                        <td>Soy el dato o el contenido</td> <!-- Etiqueta "hijo" de tr y etiqueta "hermana" de th -->     
+                    </tr>
+                </table> 
+                
+
+                <h6><u>Ejemplo concreto:</u></h6>
+                <p>para dejar un ejemplo concreto, dejamos a continuación un cuadro que explicita los diferentes tipos de archivos,
+                multimedia posibles de subir a una web desde codigo html.
+                </p>
+
+
+                <h6>Tipos de archivos multimedia</h6>
+                <details>
+                    <summary></summary>
+                    <article>
+                        <table style="border:10px solid black; background-color:rgb(161, 147, 147);">
+                            <tr>
+                                <th>medio:</th>
+                                <th>Audio</th>
+                                <th>Video</th>
+                                <th>Imagen</th>
+                            </tr>
+                            <tr>
+                                <td>ejemplos:</td>
+                                <td>
+                                    <audio src="audios/E.L.L.P..wav" controls="boolean" style="height: 300px; width: 300px;"></audio>   <!-- a tener en cuenta: sube el audio en mono -->
+                                </td>
+
+                                <td>
+                                    <video src="audios/Ground.mp4" controls="boolean" style="height: 300px; width: 300px;"></video>  
+                                </td>
+
+                                <td>
+                                    <img src="imgs/Molino.JPG" alt="paisaje: con un molino de campo en un atardecer rojo nublado" style="height: 300px; width: 300px;">
+                                </td>
+                            </tr>     
+                            <tr> 
+                                <th>etiquetas:</th>
+                                <th>
+                                    &lt;audio&gt;&lt;/audio&gt; <br>
+                                </th>
+                                <th>
+                                    &lt;video&gt;&lt;/video&gt; <br>
+                                </th>
+                                <th>
+                                    &lt;img&gt; <br>
+                                </th>
+                            </tr>
+                        </table>
+                    </article>
+                </details></dd>  
+            </article>
+        </details></dd><br>    
+
+
+
+        
+        
+        <dd><details>
+            <summary><a id="Articulos desplegables">"Articulos desplegables"</a></summary>  
+            <article>    
+                <p>Los articulos desplegables son etiquetas que permiten hacer aparecer y desaparecer información o algun elemento en si,
+                tocando sobre el triangulo expuesto, dinamicamente funciona como una solapa o como una cortina la cual se cierra o se abre
+                exponiendo el contenido. Aparte del ejemplo anterior que ya cuenta con uno, dejamos un ejemplo más simple: </p>
+                
+                <dd>
+                <h6><u>Codigo</u></h6>
+
+                
+                
+                &lt;details&gt; <br>      <!-- es la etiqueta contenedora de todo el elemento en sí, o sea, es el Articulo Despegable completo-->    
+                &lt;summary&gt;"Soy el titulo"&lt;/summary&gt; <br>     <!-- Es el titulo del articulo -->
+                &lt;article&gt;"Soy el contenido"&lt;/article&gt; <br>    <!-- es el articulo, es decir, el contenido o elemento a mostrar.-->
+                &lt;/details&gt;    
+                
+                
+
+                <h6><u>Resultado</u></h6>
+
+                <details>     
+                    <summary>"Soy el titulo"</summary>  
+                    <article>"Soy el contenido"</article>  
+                </details>    
+
+                <h6><u>Ejemplo concreto:</u></h6>
+
+                <h7>Otros tipos de archivos multimedia externos</h7>
+                <details>
+                    <summary></summary>
+                    <article>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/cjrOxszo6No" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </article>
+                </details>
+                </dd>
+            </article>
+        </details></dd><br>
+
+
+        
+        <dd><details>
+            <summary><a id="Formularios">"Formularios"</a></summary>
+            <article>     
+                <p>Los formularios como lo indica el nombre, permiten dar la posibilidad de ser un generador de datos, 
+                ya se por informe o solicitud, selección o texto. Dicha etiqueta, conlleva dentro diferentes tipos de forma de llenar datos,
+                a continuación se mostraran todos los tipos de datos a agregar, pero para los ejemplos se mostraran dos o tres etiquetas.
+                Por ello es que luego se pueden agregar mayor atributo a los tipos de datos segun corresponda.
+                </p>
+
+                <dd>
+                <h5><u>Tipos de datos:</u></h5>
+                <ul>
+                    <li>texto/s</li>    
+                    <li>contraseña</li>    
+                    <li>botones</li>    
+                    <li>radio:<p>selección por marcado</p></li>    
+                    <li>ingreso de numeros</li>    
+                    <li>ingreso de fecha</li>    
+                    <li>ingreso de archivos</li>    
+                    <li>ingreso de mails</li>    
+                </ul>
+
+                <h5><u>Codigo:</u></h5>
+
+                
+                    &lt;form&gt;  <br>
+                        &lt;input type="text"&gt; <br>
+                        &lt;input type="password"&gt; <br>
+                        &lt;input type="button"&gt; <br>
+                        &lt;input type="radio"&gt; <br>
+                        &lt;input type="number"&gt; <br>
+                        &lt;input type="datetime"&gt; <br>
+                        &lt;input type="file"&gt; <br>
+                        &lt; input type="mails"&gt; <br>
+                    &lt;/form&gt; <br>
+
+                <h5><u>Resultado:</u></h5>
+                <form>
+                    <input type="text">
+                    <input type="password">
+                    <input type="button">
+                    <input type="radio">
+                    <input type="number">
+                    <input type="datetime">
+                    <input type="file">
+                    <input type="mails">
+                </form>   
+
+                <h5><u>Ejemplo en concreto:</u></h5>
+
+                <details>
+                    <summary></summary> 
+                    <article>
+                        <form action="" style="padding: 15px;">
+                            <input id="nombre" type="text" name="usuario" value="" placeholder="usuario">
+                            <input id="contraseña" type="password" name="contraseña" placeholder="contraseña">
+                            <input type="submit" value="guardar">
+                        </form>
+                    </article>
+
+                    <summary>Busca en la web</summary> 
+                    <article>
+                        <form style="padding: 15px;">
+                            <input type="text" id="buscar" placeholder="Escribeme!!!">
+                            <a href="https://www.google.com.ar"><input type="button" value="buscar en google"></a>
+                        </form>
+                    </article>    
+                </details>
+                </dd>
+
+            </article>
+        </details></dd>
+
+
+
+    </dd>
+</details>    
+</dd>
+
+</body>
+</html>
